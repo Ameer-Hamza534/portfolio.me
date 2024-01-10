@@ -1,0 +1,21 @@
+a {
+  transition: all 0.3s ease-in-out;
+}
+a:hover {
+  transform: translateY(-3px);
+}
+
+a.contact {
+  transition: 0.3s ease-in-out;
+}
+a.contact:hover {
+  box-shadow: -3px 10px 53px -11px rgba(167, 78, 240, 0.75);
+  -webkit-box-shadow: -3px 10px 53px -11px rgba(167, 78, 240, 0.75);
+  -moz-box-shadow: -3px 10px 53px -11px rgba(167, 78, 240, 0.75);
+}
+
+@media only screen and (max-width: 768px) {
+  .links__wrapper {
+    display: none !important;
+  }
+}
