@@ -1,6 +1,5 @@
 import React from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
-import { FiMousePointer } from "react-icons/fi";
 import profile from "../../assets/transparent.png";
 import "./hero.css";
 import { FaBriefcase, FaFileDownload } from "react-icons/fa";

@@ -8,22 +8,26 @@
   width: 25%;
 }
 
-.btns a, .btns button {
+.btns a,
+.btns button {
   color: #fff;
   background-color: #663390;
   transition: all 0.3s ease;
 }
 
-.btns a, .btns button:hover {
-  transform: translateY(-3px);
+.btns a:hover,
+.btns button:hover {
+  transform: translateY(-3px) !important;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.btns a, .btns button:hover svg {
-  transform: translateY(-1px);
+.btns a:hover svg,
+.btns button:hover svg {
+  transform: translateY(-1px) !important;
 }
 
-.btns a, .btns button:hover {
+.btns a,
+.btns button:hover {
   background-color: #512b58;
 }
 .n1,
@@ -79,8 +83,9 @@
   .n2 .a2 {
     font-size: 4rem;
   }
+  .btns a,
   .btns button {
-    padding: 0.5rem 1rem;
+    padding: 0.4rem 0.8rem;
     font-size: 12px;
   }
 }
