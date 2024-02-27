@@ -8,9 +8,9 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="py-8 w-1/2 mx-auto">
+    <div id="contact" className="py-8 lg:w-1/2 md:w-3/4 sm:w-full mx-auto">
       <h2 className="text-center text-4xl font-bold mb-2 max-md:text-2xl xl:mb-6">Contact</h2>
-      <form onSubmit={handleSubmit} className="mb-4">
+      <form onSubmit={handleSubmit} className="mb-4 mx-8">
         <div className="mb-4">
           <label
             htmlFor="name"

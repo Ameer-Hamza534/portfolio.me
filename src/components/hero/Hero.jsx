@@ -144,13 +144,14 @@ const Hero = () => {
           >
             <FaFileDownload /> Download CV
           </motion.a>
-          <motion.button
+          <motion.a
+          href="https://www.upwork.com/workwith/fahadh103"
             className="rounded-full py-2 px-4 flex items-center gap-2"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
             <FaBriefcase /> Hire me
-          </motion.button>
+          </motion.a>
         </motion.div>
       </motion.div>
       <motion.img
