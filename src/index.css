@@ -3,7 +3,7 @@
 @import "tailwindcss/utilities";
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   background-color: #292929;
   color: #fff;
   user-select: none;

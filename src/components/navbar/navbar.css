@@ -3,8 +3,12 @@ a {
 }
 a:hover {
   transform: translateY(-3px);
+  border-bottom: 2px solid #663390;
 }
-
+a .active {
+  color: #663390;
+  border-bottom: 2px solid #663390;
+}
 a.contact {
   transition: 0.3s ease-in-out;
 }

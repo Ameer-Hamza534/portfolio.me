@@ -1,46 +1,57 @@
 import React from "react";
 import { Link } from "react-scroll";
 import logo from "../../assets/logo.png";
-import {FaCommentAlt} from "react-icons/fa"
+import { FaCommentAlt } from "react-icons/fa";
 import "./navbar.css";
 
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between px-7 py-4 shadow-lg">
-      <img src={logo} alt="Logo" className="h-14" />
+      <h2 className="logo text-3xl tracking-widest flex items-center gap-1">Hamza<span className="text-purple-700 text-4xl">.</span></h2>
       <div className="links__wrapper flex items-center w-full">
         <div className="ml-4 flex gap-6 font-normal justify-center flex-grow">
           <Link
-            to="/#hero"
+            to="home"
             className="hover:font-medium cursor-pointer hover:text-purple-600"
+            smooth={true}
+            duration={500}
           >
             Home
           </Link>
           <Link
-            to="/#about"
+            to="about"
             className="hover:font-medium cursor-pointer hover:text-purple-600"
+            smooth={true}
+            duration={500}
           >
             About
           </Link>
           <Link
-            to="/#services"
+            to="services"
             className="hover:font-medium cursor-pointer hover:text-purple-600"
+            smooth={true}
+            duration={500}
           >
             Services
           </Link>
           <Link
-            to="/#portfolio"
+            to="portfolio"
             className="hover:font-medium cursor-pointer hover:text-purple-600"
+            smooth={true}
+            duration={500}
           >
             Portfolio
           </Link>
         </div>
         <Link
-          to="/#contact"
+          to="contact"
           className="contact rounded-full font-medium cursor-pointer text-white px-6 py-2 shadow-lg hover:shadow-xl tracking-widest flex justify-center items-center gap-2"
           style={{ backgroundColor: "#663390" }}
+          smooth={true}
+          duration={500}
         >
-          <FaCommentAlt/>Contact
+          <FaCommentAlt />
+          Contact
         </Link>
       </div>
       {/* <div className="mobile__menu flex flex-col items-center justify-center gap-2 w-full">

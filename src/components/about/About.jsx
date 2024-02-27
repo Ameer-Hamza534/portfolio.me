@@ -64,9 +64,9 @@ const About = () => {
     <div
       id="about"
       className="flex p-20 max-md:p-8 max-lg:flex-col-reverse"
-      style={{ backgroundColor: "rgb(30 0 55 / 25%)" }}
+      style={{ backgroundColor: "#302f2fd9" }}
     >
-      <div className="w-1/2 flex px-20 flex-wrap gap-4 max-lg:w-full max-md:mb-8 max-md:justify-center max-xl:p-8 max-sm:p-0 max-md:gap-6">
+      <div className="w-1/2 max-lg:w-full flex px-20 flex-wrap gap-4 max-md:mb-8 max-md:justify-center max-xl:p-8 max-sm:p-0 max-md:gap-6">
         {Object.keys(icons).map((key, index) => (
           <motion.div
             key={key}
@@ -90,7 +90,7 @@ const About = () => {
           </motion.div>
         ))}
       </div>
-      <div className="w-1/2 max-xl:w-full flex flex-col justify-center max-md:text-center max-md:my-8">
+      <div className="w-1/2 max-lg:w-full flex flex-col justify-center max-md:text-center max-md:my-8">
         <h2 className="text-4xl font-bold mb-2 max-md:text-2xl xl:mb-6">About Me</h2>
         <p className="max-md:text-sm">
           👋 Hey there! I'm Ameer Hamza and I'm a software engineer specializing

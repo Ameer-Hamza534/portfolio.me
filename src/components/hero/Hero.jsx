@@ -15,12 +15,12 @@ const Hero = () => {
   const rotateX = useTransform(
     mouseYSpring,
     [-0.5, 0.5],
-    ["17.5deg", "-17.5deg"]
+    ["-3deg", "23deg"]
   );
   const rotateY = useTransform(
     mouseXSpring,
     [-0.5, 0.5],
-    ["-17.5deg", "17.5deg"]
+    ["23deg", "-3deg"]
   );
 
   const handleMouseMove = (e) => {
@@ -45,6 +45,7 @@ const Hero = () => {
   };
   return (
     <motion.section
+    id="home"
       className="section flex justify-center items-center h-[600px]"
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
@@ -70,6 +71,7 @@ const Hero = () => {
           <div className="n1">
             <motion.h2
               className="a1 design text-9xl font-medium"
+              style={{rotateX, rotateY}}
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1, duration: 1 }}
@@ -82,10 +84,10 @@ const Hero = () => {
               style={{
                 rotateY,
                 rotateX,
-                transformStyle: "preserve-3d",
+                
               }}
               className="a2 design text-9xl font-medium"
-              initial={{ opacity: 0, y: -20 }}
+              initial={{ opacity: 0, y: -20, transformStyle: "preserve-3d" }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.2, duration: 1 }}
             >
@@ -95,6 +97,7 @@ const Hero = () => {
           <div className="n2">
             <motion.h1
               className="a1 text-9xl font-medium"
+              style={{rotateX, rotateY}}
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.4, duration: 1 }}
