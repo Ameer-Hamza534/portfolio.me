@@ -145,7 +145,7 @@ const Hero = () => {
             <FaFileDownload /> Download CV
           </motion.a>
           <motion.a
-          href="https://www.upwork.com/workwith/fahadh103"
+          href="https://www.upwork.com/freelancers/~01677979023cacb6c6?mp_source=share"
             className="rounded-full py-2 px-4 flex items-center gap-2"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
