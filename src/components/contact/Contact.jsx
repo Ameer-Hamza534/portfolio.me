@@ -9,7 +9,7 @@ const Contact = () => {
 
   return (
     <div id="contact" className="py-8 w-1/2 mx-auto">
-      <h2 className=" text-center text-center text-4xl font-bold mb-2 max-md:text-2xl xl:mb-6">Contact</h2>
+      <h2 className="text-center text-4xl font-bold mb-2 max-md:text-2xl xl:mb-6">Contact</h2>
       <form onSubmit={handleSubmit} className="mb-4">
         <div className="mb-4">
           <label
